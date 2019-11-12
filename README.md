@@ -1,6 +1,6 @@
 # dbdiagram.io diagram generator for MS SQL
 
-Draw a database diagram from your MS SQL database in dbdiagram.io.
+Draw a database diagram of your MS SQL database in dbdiagram.io.
 
 ## The repository
 
@@ -47,6 +47,10 @@ foreach (ForeignKeyDto fk in foreignKeys)
     Console.WriteLine( fk.ToDbDiagramDto() );
 }
 ```
+
+## Why
+
+SQL Server Management Studio 18 no longer support diagrams. dbdiagram.io is a free tool to draw DB diagrams, however currently it does not have an "import from ms sql" feature. This project provided a quick & dirty way for me to generate DB diagrams for my MS SQL databases.
 
 ## License
 
