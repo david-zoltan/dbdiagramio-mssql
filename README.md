@@ -54,4 +54,4 @@ SQL Server Management Studio 18 no longer support diagrams. dbdiagram.io is a fr
 
 ## License
 
-Licensed under the [MIT license](LICENSE).
+Copyright (c) 2019 David Zoltan. Licensed under the [MIT license](LICENSE).
