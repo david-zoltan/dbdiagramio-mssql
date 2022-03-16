@@ -22,7 +22,7 @@ namespace DbDbiagramIo.MsSql
         public string ToDbDbiagramCode()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.AppendLine( $"Table {Name} {{" );
+            stringBuilder.AppendLine( $"Table \"{Name}\" {{" );
 
             foreach (ColumnDto column in this.columns.Values)
             {
